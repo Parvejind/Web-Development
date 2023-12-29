@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM Part 1</title>
+</head>
+<body>
+     <!-- Id -->
+    <p id="one"><span>Hello</span>Namaste</p>
+    <!-- class -->
+    <ul>
+        <li class="tech">One</li>
+        <li class="tech">Two</li>
+        <li class="tech">Three</li>
+    </ul>
+    <!-- tagname -->
+    <h4>Hello</h4>
+    <h4>Halo</h4>
+    <h4>Hola</h4>
+    <!-- Query Selector -->
+    <h2>Hello</h2>
+    <h2 class="class">Halo</h2>
+    <h2 id="ids">Hola</h2>
+    <script>
+        // Id
+        let var1 = document.getElementById("one")
+        console.log(var1.innerText)
+        // class
+        let var2 = document.getElementByIdClassName("tech")
+        console.log(var2[2].innerText)
+        var2[1].innerText = "Nodejs"
+        // TagName
+        let var3 = document.getElementByTagName("h4")
+        console.log(vare[1].innerHTML)
+        var3[2].innerText = "Hello PwSkills"
+        var3[2].style.color = "red"
+        // Query Selector
+        let var4 = document.querySelector(".class")
+        console.log(v4)
+
+        // var4.className = "hello"
+        var4.classList = "hello halo hola"
+        var4.setAttribute("id", "js")
+    </script>
+</body>
+</html>

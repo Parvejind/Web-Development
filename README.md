@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Frameworks**
 
-- 📫 How to reach me **mparvejind@gmail.com**
+- 📫 How to reach me **mparvejwelt@gmail.com**
 
 - ⚡ Fun fact **I am funny**
 
