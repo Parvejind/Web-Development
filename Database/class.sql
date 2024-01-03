@@ -199,5 +199,3 @@ mysql> select * from actors;
 | Chadwick  | Boseman   | Male   |      500 |
 +-----------+-----------+--------+----------+
 7 rows in set (0.00 sec)
-
-mysql>
