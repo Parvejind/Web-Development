@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+    /* 
+        phones
+     */
+     body {
+        background-color: red;
+     }
+     div::after {
+        content: 'This is mobile compatible';
+     }
+     @media (min-width: 600px)
+     /* 
+         portrain table and bih phoes
+      */
+      body {
+        background-color: aquamarine;
+      }
+      div::after {
+        content: 'Portrait tabler and big phones';
+      }
+}
+div {
+    text-align: center;
+    font-size: x-large;
+}
