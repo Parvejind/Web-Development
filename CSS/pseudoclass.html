@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo Class</title>
+    <style>
+        /* .hover:hover{
+            background-color: pink;
+            color: white;
+        }
+        input:focus{
+            color: red;
+            background-color: black;
+            font-size: 25px;
+        } */
+        /* a:hover {
+            color: pink;
+        }
+        a:active {
+            color: brown;
+        } */
+        /* a:visited {
+            color: black;
+        } */
+        /* a:nth-child(2n + 1) {
+            background-color: yellow;
+        } */
+        p::after{
+            content: "-Mr. Raju";
+            color: aqua;
+
+        }
+        p::before{
+            content: "-Mr. Raju";
+            color: aqua;
+
+        }
+        p::selection{
+            background-color: black;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- Pseudo Class -->
+    <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptatum.</p>
+    <input type="text">
+    <hr>
+    <nav>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.google.com">Google</a>
+    </nav>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet necessitatibus quasi excepturi ad voluptatibus voluptatem ducimus quaerat possimus nemo debitis maxime obcaecati nostrum similique hic architecto corporis, illum eius aut? Tenetur voluptatibus alias omnis aut fugiat earum ad dicta laborum illo error dolores vitae possimus, explicabo eligendi placeat quaerat laudantium perspiciatis necessitatibus. Ducimus quibusdam, qui labore rem adipisci voluptate est doloremque officia enim quos nulla! Provident, laborum id, animi perspiciatis sunt nihil ullam dicta deserunt debitis voluptas ad! Accusamus nam obcaecati aperiam quaerat quo soluta impedit dignissimos, aliquam hic, beatae eius in totam delectus cumque harum quia illo, labore sequi?</p>
+</body>
+</html>
