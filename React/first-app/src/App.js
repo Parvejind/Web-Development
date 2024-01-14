@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import DogCard from "./DogCard";
 function App() {
   return (
-    <div className="App">
+    <div>
       hello
+      <DogCard />
+      <DogCard />
     </div>
   );
 }
